@@ -1,0 +1,233 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Bowlby+One&family=Faculty+Glyphic&family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+h2 {
+    color: #ceb44d;
+    text-shadow: 1px 1px 1px #000000;
+    font-family: "Oswald", sans-serif;
+    position: relative;
+    top: 0px;
+    left: 190px;
+}
+
+body{
+background-color:#06052c; 
+color: rgb(255, 255, 255);
+}
+
+p{
+    text-align: justify;
+    text-indent: 0px;
+    max-width: 2500px;
+    font-family:  "Afacad Flux", sans-serif;
+    margin-top: 0px;
+    position: relative;
+    top: 0px;
+    left: 150px;
+   width: 500px;
+}
+ 
+a {
+color: white;
+text-decoration: none;
+}
+
+a:hover  {
+text-decoration: underline;
+}
+
+
+    header#cabecalho img#icone {
+        position: absolute;
+        left: 1400px;
+        top: 90px;
+        width: 60px;
+    }
+
+    header#cabecalho {
+        border-bottom: 1px white solid;
+        height: 50px;
+    }
+
+div#interface {
+width: 95%;
+background-color: #000000;
+margin: -10px auto 0px auto;
+box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+padding: 20px ;
+
+}
+
+header#cabecalho h1 {
+   font-family: "Oswald", sans-serif;
+   font-size: 55px;
+   color: white;
+   text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+   position: relative;
+   padding: -10px -5px -5px;
+   margin: 10px;
+   left: 0px;
+   top: -25px;
+}
+
+
+figure.fotos {
+position: relative;
+border:8px solid #06052c;
+box-shadow: 1px 1px 4px black ;
+display: inline-block;
+margin: 20px auto;
+top: 0px;
+left: 200px;
+}
+
+figure.fotos img {
+    width: 370px;
+    height: auto;
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+figure.fotos figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,.4);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.fotos:hover figcaption {
+    opacity: 1;
+}
+
+nav#Menu ul {
+list-style: none;
+text-transform: uppercase;
+position: absolute;
+top: -20px;
+left: 1000px;
+}
+
+nav#Menu li {
+display: inline-block;
+background-color: #000000;
+padding: 10px;
+margin: 2px;
+transition: 0.5s;
+}
+
+
+nav#Menu {
+    display: block;
+}
+
+nav#Menu h1 {
+    display: none;
+}
+
+nav#Menu li:hover {
+    background-color: #0b0a35;
+}
+
+nav#Menu h1 {
+    display: none;
+}
+
+nav#Menu a {
+    text-decoration: none;
+    color: #f8f5f5
+}
+
+nav#Menu a:hover {
+    text-decoration: underline;
+    color: rgb(230, 232, 238)
+}
+
+section#corpo {
+display: block;
+width: 400px;
+float: left;
+border-right: 1px solid white;
+padding-right: 400px ;
+}
+
+article#noticia h2 {
+    font-size: 25pt;
+    color:#ceb44d;
+    padding: 5px 10px 5px;
+    margin: 10px;
+}
+
+article#ultima h2 {
+    font-size: 25pt;
+    color:#ceb44d;
+    padding: 5px 10px 5px;
+    margin: 10px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+/* Estilização para a figura */
+article#ultima .fotos {
+    display: inline-block; /* Garante que o elemento seja tratado como bloco */
+    margin: 0 auto 20px auto; /* Centraliza a figura e adiciona espaço inferior */
+    text-align: center; /* Centraliza a legenda */
+    position: relative;
+margin: 20px auto;
+top: 0px;
+left: 20px;
+
+}
+
+/* Estilização para a imagem */
+article#ultima .fotos img {
+    display: block; /* Centraliza a imagem */
+    margin: 0 auto; /* Centraliza a imagem */
+    max-width: 100%; /* Evita que a imagem ultrapasse os limites do container */
+    width: 370px;
+    height: auto;
+    box-sizing: border-box;
+    position: relative;
+    top: 0px;
+    left: -0px;
+}  
+
+article#ultima p {
+    position: relative;
+    top: 10px;
+    left: -50px;
+   width: 500px;
+   
+}
+aside#lateral {
+    display: block;
+    width: 500px;
+    float: right;
+    }
+
+footer#rodape {
+clear: both;
+border-top: 1px solid white;
+}
+
+footer#rodape p {
+    position: relative;
+    text-align: center;
+    padding: 15px 5px 5px;
+    margin: 15px;
+    left: 530px;
+}
+

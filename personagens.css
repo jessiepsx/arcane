@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+p {
+    text-align: justify;
+    text-indent: 0px;
+    max-width: 2500px;
+    font-family:  "Afacad Flux", sans-serif;
+    margin: 10px auto;
+    position: relative;
+    left: 30px;
+}
+
+p#fonte1 {
+    font-size: 25pt;
+    text-align: justify;
+    white-space: nowrap;
+    font-family:  "Oswald", sans-serif;
+    position: relative;
+    left: -20px;
+}
+
+body{
+    background-color:#06052c; 
+    color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    }
+    
+
+     article#noticia h2 {
+            font-size: 40pt;
+            color:#ceb44d;
+            padding: 5px 5px 10px;
+            margin: 15px;
+            position: relative;
+            left: 590px;
+            top: -30px;
+        }
+
+        header#cabecalho img#icone {
+            position: absolute;
+            left: 1400px;
+            top: 70px;
+            width: 60px;
+        }
+
+ul#album {
+width: 700px;
+margin: 0 auto;
+padding: 50px;
+overflow: hidden;
+list-style: none;
+position: relative;
+left: 55px;
+}
+
+ul#album li {
+float: left;
+width: 200px;
+height: 200px;
+margin: 10px;
+border: 5px solid #ceb44d ;
+background-color: white;
+box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+-webkit-transition: all .4s ease-in;
+} 
+
+ul#album li span {
+    opacity: 0;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgba(0,0,0,0.1);
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+}
+
+ul#album li:hover {
+-webkit-transform: scale(1.5);
+}
+
+ul#album li:hover span {
+opacity: 1;
+}
+
+ul#album li#foto1{
+background: url('img/vix.png') no-repeat;
+background-position: 50% 50%;
+background-size: 400px 400px;
+background-color: #ffffff;
+}
+ 
+ul#album li#foto1:hover  {
+background-position: 0px 0px;
+background-size: 200px 200px;
+}
+
+
+ul#album li#foto2{
+    background: url('img/jinx.png') no-repeat;
+    background-position: 50% 50%;
+background-size: 400px 400px;
+background-color: #ffffff;
+    }
+
+    ul#album li#foto2:hover  {
+        background-position: 0px 0px;
+        background-size: 200px 200px;
+        }
+        
+
+    ul#album li#foto3{
+        background: url('img/cait.png') no-repeat;
+        background-position: 50% 50%;
+background-size: 400px 400px;
+background-color: #ffffff;
+        }
+
+        ul#album li#foto3:hover  {
+            background-position: 0px 0px;
+            background-size: 200px 200px;
+            }
+            
+
+        ul#album li#foto4{
+            background: url('img/ekko.png') no-repeat;
+            background-position: 50% 50%;
+background-size: 400px 400px;
+background-color: #ffffff;
+            }
+
+            ul#album li#foto4:hover  {
+                background-position: 0px 0px;
+                background-size: 200px 200px;
+                }
+                
+
+            ul#album li#foto5{
+                background: url('img/jayce1.png') no-repeat;
+                background-position: 50% 50%;
+background-size: 400px 400px;
+background-color: #ffffff;
+                }
+
+                ul#album li#foto5:hover  {
+                    background-position: 0px 0px;
+                    background-size: 200px 200px;
+                    }
+                    
+
+                ul#album li#foto6{
+                    background: url('img/muie.png') no-repeat;
+                    background-position: 50% 50%;
+background-size: 400px 400px;
+    background-color: #ffffff;
+                    }
+
+                    ul#album li#foto6:hover  {
+                        background-position: 0px 0px;
+                        background-size: 200px 200px;
+                        }
+
+                        footer#rodape p {
+                            position: relative;
+                            text-align: center;
+                            padding: 15px 5px 5px;
+                            margin: 15px;
+                            left: 500px;
+                        }
+                        

@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+form {
+width: 500px;
+margin: auto;
+}
+
+body{
+    background-color:#06052c; 
+    color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    }
+    
+    header#cabecalho img#icone {
+        position: absolute;
+        left: 1400px;
+        top: 73px;
+        width: 50px;
+    }
+
+    article#noticia h2 {
+        font-size: 40pt;
+        color:#ceb44d;
+        padding: 5px 5px 10px;
+        margin: 15px;
+        position: relative;
+        left: 660px;
+        top: -28px;
+    }
+
+input , textarea {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 10pt;
+}
+
+input:hover , textarea{
+background-color: rgb(177, 177, 184);
+}
+
+legend {
+color: white;
+font-weight: bold;
+font-size: 13pt;
+font-family: sans-serif;
+}
+
+fieldset{
+border-color: aliceblue;
+margin: 20px;
+}
+
+fieldset#sexo {
+    width: 150px;
+}
+
+input#botao {
+position: relative;
+left: 250px;
+margin: 20px;
+font-size: 13pt;
+}
+
+footer#rodape p {
+    position: relative;
+    text-align: center;
+    padding: 15px 5px 5px;
+    margin: 15px;
+    left: 500px;
+}
