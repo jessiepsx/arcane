@@ -51,7 +51,7 @@ A temática do site foi escolhida por afinidade pessoal com a série Arcane e se
 
 ## 📬 Contato
 Se quiser acompanhar meus estudos ou trocar ideias, você me encontra por aqui:
-- 🔗 https://linkedin.com/jessiepsx
+- 🔗 https://linkedin.com/in/jessiepsx
 - 💻 https://github.com/jessiepsx
 
 ### 🚀 Projeto criado com muito carinho, dedicação e aprendizado!
